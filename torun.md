@@ -2,15 +2,8 @@
 Working !!
 If you are using window then first of all
 
-create virtual environment
+git clone https://github.com/theRishu/bus_reservation
+pip install -r requirements.txt
 
-python -m venv venv
-Then activate that environment
+python manage.py runserver
 
-venv\Scripts\activate
-Then install Django in that environment
-
-pip install django
-Then create django project named mysite
-
-django-admin startproject mysite
